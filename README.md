@@ -3,10 +3,10 @@
 
 ##文件说明
 1. 项目代码在同级目录中，一个文件夹代表一个项目，一共需要启动四个项目
-2. springcloud 项目为注册中心，需要第一个启动
-3. service-member 项目作为服务的提供方，第二个启动
-4. service-order-feign 项目作为服务的调用方，第三个启动
-5. service-zuul 项目为网关，对用户请求进行拦截，最后一个启动
+2. springcloud 项目为注册中心，需要第一个启动，项目代码说明参考链接：[传送门](https://jchanji.github.io/year/07/25/SpringCloud-chapter3/)
+3. service-member 项目作为服务的提供方，第二个启动。项目代码说明参考链接：[传送门](https://jchanji.github.io/year/07/27/SpringCloud-chapter4/)
+4. service-order-feign 项目作为服务的调用方，第三个启动项目。项目代码说明参考链接：[传送门1](https://jchanji.github.io/year/07/25/SpringCloud-chapter3/)，[传送门2](https://jchanji.github.io/year/08/06/springCloud-chapter9/)
+5. service-zuul 项目为网关，对用户请求进行拦截，最后一个启动。项目代码说明参考链接：[传送门](https://jchanji.github.io/year/07/31/SpringCloud-chapter7/)
 
 ## 运行环境
 1. Intel Idea
