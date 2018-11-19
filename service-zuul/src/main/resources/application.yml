@@ -1,0 +1,24 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1234/eureka/
+
+server:
+  port: 8765
+
+spring:
+  application:
+    name: service-zuul
+
+zuul:
+  routes:
+    api-a:
+    #对外提供的接口
+      path: /api/member/**
+      #映射到的服务项目名称
+      service-id: service-member
+    api-b:
+      path: /api/order/**
+      service-id: service-order-feign
+
+
