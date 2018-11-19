@@ -1,0 +1,32 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1234/eureka/
+spring:
+  application:
+    name: service-order-feign
+
+server:
+  port: 8766
+  #设置tomcat最大线程数
+  tomcat:
+  #默认150
+    max-connections: 10
+
+#设置 ribbon 读取和连接超时时间
+ribbon:
+  ReadTimeout: 10000
+  #默认两秒
+  ConnectTimeout: 10000
+
+feign:
+  hystrix:
+    enabled: true
+#设置feign连接超时时间
+hystrix:
+  command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 10000
