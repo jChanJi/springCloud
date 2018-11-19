@@ -1,7 +1,7 @@
 # springCloud
 搭建微服务基本框架，主要包括注册中心、服务生产者、服务消费者、网关。
 
-##文件说明
+## 文件说明
 1. 项目代码在同级目录中，一个文件夹代表一个项目，一共需要启动四个项目
 2. springcloud 项目为注册中心，需要第一个启动，项目代码说明参考链接：[传送门](https://jchanji.github.io/year/07/25/SpringCloud-chapter3/)
 3. service-member 项目作为服务的提供方，第二个启动。项目代码说明参考链接：[传送门](https://jchanji.github.io/year/07/27/SpringCloud-chapter4/)
