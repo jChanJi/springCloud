@@ -10,12 +10,12 @@ eureka:
   instance:
     hostname: localhost
   client:
-  #应用为注册中心，由于不向注册中心注册自己，所以设置为false
+    #应用为注册中心，由于不向注册中心注册自己，所以设置为false
     register-with-eureka: false
     #表示注册中心去检索服务，由于本身注册中心的职责是维护服务实例，因此不需要去检索，设置为false；
     fetch-registry: false
     serviceUrl:
-          defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 logging:
   file: ${spring.application.name}.log

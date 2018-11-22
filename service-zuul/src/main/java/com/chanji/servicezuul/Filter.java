@@ -12,12 +12,14 @@ import java.io.IOException;
 
 /**
  * zuul网关
+ *
  * @author ChanJi
  * @create 2018-08-02 9:14
  **/
 @Component
 public class Filter extends ZuulFilter {
-    public static  final Logger log = LoggerFactory.getLogger(Filter.class);
+    public static final Logger log = LoggerFactory.getLogger(Filter.class);
+
     @Override
     public String filterType() {
         return "pre";
@@ -37,7 +39,7 @@ public class Filter extends ZuulFilter {
     public Object run() throws ZuulException {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
-        log.info(String.format("%s >>> %s", request.getMethod(),request.getRequestURL().toString()));
+        log.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
         Object accessToken = request.getParameter("token");
         if (accessToken != null) {
             return null;

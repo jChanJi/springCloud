@@ -13,7 +13,7 @@ spring:
 zuul:
   routes:
     api-a:
-    #对外提供的接口
+      #对外提供的接口
       path: /api/member/**
       #映射到的服务项目名称
       service-id: service-member

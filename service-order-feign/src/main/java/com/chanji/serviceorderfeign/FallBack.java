@@ -12,9 +12,22 @@ import java.util.List;
 @Component
 public class FallBack implements FeignService {
     @Override
-    public List<String> getAllUser() {
-        List<String> list = new ArrayList<>();
-        list.add("fallback");
-        return list;
+    public List<User> getAllUser() {
+        return null;
+    }
+
+    @Override
+    public List<User> addUsers(User user) {
+        return null;
+    }
+
+    @Override
+    public List<User> deleteUser(Integer id) {
+        return null;
+    }
+
+    @Override
+    public List<User> modifyUser(User user) {
+        return null;
     }
 }

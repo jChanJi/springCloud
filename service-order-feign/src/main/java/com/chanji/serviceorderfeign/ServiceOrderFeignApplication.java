@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableFeignClients
 public class ServiceOrderFeignApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ServiceOrderFeignApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ServiceOrderFeignApplication.class, args);
+    }
 }
