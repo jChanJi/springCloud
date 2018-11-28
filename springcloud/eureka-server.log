@@ -117,3 +117,19 @@
 2018-11-22 16:19:01.892  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
 2018-11-22 16:20:01.897  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
 2018-11-22 16:21:01.901  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-11-22 16:22:01.903  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-11-22 16:23:01.908  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-11-22 16:24:01.607  WARN 13007 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-11-22 16:24:01.913  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-22 16:25:01.918  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-11-22 16:26:01.920  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-11-22 16:27:01.935  INFO 13007 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-22 16:28:01.650  INFO 13007 --- [Thread-25] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643: startup date [Thu Nov 22 15:43:58 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59309333
+2018-11-22 16:28:01.651  INFO 13007 --- [Thread-25] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application eureka-server with eureka with status DOWN
+2018-11-22 16:28:01.652  INFO 13007 --- [Thread-25] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-11-22 16:28:01.653  INFO 13007 --- [Thread-25] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2018-11-22 16:28:01.656  INFO 13007 --- [Thread-25] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2018-11-22 16:28:01.658  INFO 13007 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-11-22 16:28:01.658  INFO 13007 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-11-22 16:28:01.661  INFO 13007 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-11-22 16:28:01.661  INFO 13007 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
